@@ -25,3 +25,10 @@
 #### 1. cp -r avr-make/test test && cd test
 #### 1. cd avr/blink
 #### 3. arv-make
+### example usage
+#### 1. cd ~ && mkdir hello && cd hello
+#### 2. touch hello.ino 
+#### 3. type "avr-make help" for help
+#### 4. avr-make init
+#### 5. edit hello.ino and config.txt 
+#### 6. type "avr-make" for verify and upload
