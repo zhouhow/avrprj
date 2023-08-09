@@ -1,0 +1,32 @@
+#! /bin/bash
+
+CFG=config.txt
+FILE=~/avr-make/src/Makefile
+CMD=$1
+
+if [[ $CMD = "help" ]]; then 
+	echo "- all     compiles and upload the sketch";
+    echo "- init    create the configuration file";
+    echo "- verify  only compiles, don't upload the sketch";
+    echo "- upload  upload sketch to device via serial port";
+    echo "- monitor open the serial monitor if it is available";
+    echo "- config  show the configuration of this sketch";
+    echo "- clean   clean the output binary files' directory";
+    echo "- install install libraries according to libraries.txt";
+    echo "- help    print out this help page";
+elif [[ $CMD = "init" ]]; then
+	if [ ! -e $CFG ]; then
+		echo -e "\033[;31mERROR: Can't find config.txt, creating... \033[0m";
+        echo "Create an init config file, please specify it";
+        touch $CFG;
+        echo "PROJ=blink" >> $CFG;
+        echo "FQBN=arduino:avr:uno" >> $CFG;
+        echo "DEVS=/dev/ttyACM0" >> $CFG;
+    else 
+		echo -e "\033[;33mWARNING: Configuration file already exits \033[0m";
+	fi
+else 
+    echo "Reading configuration file...";
+	make -f $FILE $CMD;
+fi
+

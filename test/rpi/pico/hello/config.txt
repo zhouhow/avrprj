@@ -1,0 +1,3 @@
+PROJ=hello
+FQBN=rp2040:rp2040:rpipico
+DEVS=/dev/ttyACM0
