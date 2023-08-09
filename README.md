@@ -27,8 +27,11 @@
 
 ### notice
 #### 1. the config.txt inclues PROJ, FQBN, DEVS variables
-##### PROJ is the name of project, there should be a PROJ.ino in current project dicrectory
-##### FQBN is Fully Qualified Board Name, you can get it by command "arduino-cli board listall"
-##### DEVS is the port of the board, usually /dev/ttyACM* or /dev/ttyUSB* in Linux and COM* in Windows
+##### 1.PROJ is the name of project, there should be a PROJ.ino in current project dicrectory
+##### 2.FQBN is Fully Qualified Board Name, you can get it by command "arduino-cli board listall"
+##### 3.DEVS is the port of the board, usually /dev/ttyACM* or /dev/ttyUSB* in Linux and COM* in Windows
 #### 2.there are some eaxmples in test directory
-##### avr is for ardunio, esp/dev is for esp32, esp/node is for esp8266, rpi/pico is for rpipico board, rpi/picow is for rpipicow board
+##### 1. avr is for ardunio, esp/dev is for esp32, esp/node is for esp8266, rpi/pico is for rpipico board, 
+##### rpi/picow is for rpipicow board
+##### 2. blink for blink the on board led, hello is for print out "hello world" to serial monitor, wifi is
+##### for rpipicow only for wifi connection
