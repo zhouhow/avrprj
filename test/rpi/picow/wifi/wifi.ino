@@ -8,8 +8,8 @@
 #include <WiFi.h>
 
 // Replace with your network credentials
-const char* ssid = "CMCC-kVYt-5G";
-const char* password = "15982533325Abc";
+const char* ssid = "";
+const char* password = "";
 
 void setup() {
 
