@@ -29,4 +29,4 @@ you can try "avr-make help" to get help page as follows
 2. blink for blink the on board led, hello is for print out "hello world" to serial monitor, wifi is for rpipicow only for wifi connection
 ###### 3. specify the installation directory
 1. if you don't want to install in home directory, you should change the FILE variable in bin/avr-make.
-2. the FILE variable is related where the Makefile 
+2. the FILE variable is related to where the Makefile is
