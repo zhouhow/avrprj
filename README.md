@@ -7,15 +7,7 @@
 
 ### usage
 #### 2. you can try "avr-make help" to get help page as follows
-##### - all     compiles and upload the sketch
-##### - init    create the configuration file
-##### - verify  only compiles, don't upload the sketch
-##### - upload  upload sketch to device via serial port
-##### - monitor open the serial monitor if it is available
-##### - config  show the configuration of this sketch
-##### - clean   clean the output binary files' directory
-##### - install install libraries according to libraries.txt
-##### - help    print out this help page
+
 
 ### example
 #### 1. cd ~ && mkdir hello && cd hello
@@ -30,7 +22,7 @@
 ##### 1.PROJ is the name of project, there should be a PROJ.ino in current project dicrectory
 ##### 2.FQBN is Fully Qualified Board Name, you can get it by command "arduino-cli board listall"
 ##### 3.DEVS is the port of the board, usually /dev/ttyACM* or /dev/ttyUSB* in Linux and COM* in Windows
-#### 2.there are some eaxmples in test directory
+#### 2. there are some eaxmples in test directory
 ##### 1. avr is for ardunio, esp/dev is for esp32, esp/node is for esp8266, rpi/pico is for rpipico board, 
 ##### rpi/picow is for rpipicow board
 ##### 2. blink for blink the on board led, hello is for print out "hello world" to serial monitor, wifi is
