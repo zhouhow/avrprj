@@ -26,3 +26,5 @@ you can try "avr-make help" to get help page as follows
 ###### 2. there are some eaxmples in test directory
 1. avr is for ardunio, esp/dev is for esp32, esp/node is for esp8266, rpi/pico is for rpipico board, rpi/picow is for rpipicow board
 2. blink for blink the on board led, hello is for print out "hello world" to serial monitor, wifi is for rpipicow only for wifi connection
+###### 3. install tool in other directory 
+1. if you want to change the setup directory, please change the FILE variable in bin/avr-make shell, FILE shoe be the full path of src/Makefile
