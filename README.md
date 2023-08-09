@@ -6,7 +6,8 @@ a shell and makefile based tool for arduino based sketch by using arduino-cli, i
 
 ### usage
 you can try "avr-make help" to get help page as follows
-<img src="png/help.png" width="500" height="300">   
+
+<img src="png/help.png" width="600" height="300">   
 
 ### example
 1. cd ~ && mkdir hello && cd hello
