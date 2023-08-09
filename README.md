@@ -22,6 +22,6 @@
 ##### - install install libraries according to libraries.txt
 ##### - help    print out this help page
 ### test
-#### 3. cp -r avr-make/test test && cd test
-#### 4. cd avr/blink
-#### 5. arv-make
+#### 1. cp -r avr-make/test test && cd test
+#### 1. cd avr/blink
+#### 3. arv-make
