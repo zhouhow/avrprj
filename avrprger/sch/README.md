@@ -1,0 +1,1 @@
+The schematic is from [here](https://github.com/beneater/eeprom-programmer)

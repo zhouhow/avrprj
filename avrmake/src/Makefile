@@ -107,4 +107,3 @@ clean:
     else echo "\033[;33mWARNING: The build directory doesn't exits \033[0m"; \
         echo "\033[;33mWARNING: You don't need to remove it at all\033[0m"; \
     fi
-

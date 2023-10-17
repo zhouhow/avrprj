@@ -1,23 +1,23 @@
-## avr-make
+## avrmake
 a shell and makefile based tool for arduino based sketch by using arduino-cli, it has been tested by arduino uno, esp32, esp8266, rpipico and rpipicow
 ### setup
-1. cd ~ && git clone url
-2. export PATH=~/avr-make/bin:$PATH
-3. or echo "PATH=~/avr-make/bin:$PATH" >> .bashrc && source .bashrc
+1. cd ~ && git clone https://github.com/zhouhowell/avrprj.git
+2. export PATH=~/avrprj/avrmake/bin:$PATH
+3. or echo "PATH=~/avrprj/avrmake/bin:$PATH" >> .bashrc && source .bashrc
 
 ### usage
-you can try "avr-make help" to get help page as follows
+you can try "avrmake help" to get help page as follows
 
 <img src="png/help.png" width="600" height="200">   
 
 ### example
 1. cd ~ and make a directory, such as mkdir hello, cd hello
 2. touch hello.ino, vim or gedit hello.ino, paste a copy of aduino code
-3. type "avr-make help" for help, usually it will print out as usage section
-4. type "avr-make init" to create config.txt, specify the config file
-5. type "avr-make config" to print out the FQBN, PROJ, DEVS variables
-6. type "avr-make verify" for verify code, type "avr-make upload" for upload
-7. type "avr-make monitor" for opening the arduino-cli monitor
+3. type "avrmake help" for help, usually it will print out as usage section
+4. type "avrmake init" to create config.txt, specify the config file
+5. type "avrmake config" to print out the FQBN, PROJ, DEVS variables
+6. type "avrmake verify" for verify code, type "avrmake upload" for upload
+7. type "avrmake monitor" for opening the arduino-cli monitor
 
 ### notice
 ###### 1. the config.txt inclues PROJ, FQBN, DEVS variables
